@@ -3,15 +3,18 @@ import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
 import { Links } from "@/components/Links";
 import { Footer } from "@/components/Footer";
+import { TerminalFrame } from "@/components/TerminalFrame";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Experience />
-      <Skills />
-      <Links />
-      <Footer />
+      <TerminalFrame>
+        <Hero />
+        <Experience />
+        <Skills />
+        <Links />
+        <Footer />
+      </TerminalFrame>
     </main>
   );
 }

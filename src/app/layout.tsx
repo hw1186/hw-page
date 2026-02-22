@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
   title: "이현우 — Security & Infrastructure Engineer",
@@ -33,8 +32,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
         />
       </head>
-      <body className="antialiased">
-        <Nav />
+      <body className="scanline antialiased">
         {children}
       </body>
     </html>

@@ -75,7 +75,7 @@ export function Links() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 rounded border border-border px-3.5 py-2 text-[13px] text-text-muted transition-all duration-200 hover:border-accent hover:text-accent hover:shadow-[0_0_12px_rgba(88,166,255,0.15)]"
+                className="flex items-center gap-2 rounded border border-border px-3.5 py-2 text-[13px] text-text-muted transition-all duration-200 hover:border-accent hover:text-accent hover:shadow-[0_0_12px_rgba(61,220,132,0.15)]"
               >
                 <Icon />
                 <span>{link.label}</span>

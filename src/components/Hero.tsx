@@ -4,7 +4,7 @@ import { FadeIn } from "./FadeIn";
 
 export function Hero() {
   return (
-    <section className="px-6 pb-6 pt-24 sm:px-10 lg:px-16">
+    <section className="px-6 pb-6 pt-10 sm:px-10 lg:px-16">
       <div className="mx-auto flex w-full max-w-4xl items-center justify-between gap-8">
         <div className="min-w-0">
           <FadeIn>
