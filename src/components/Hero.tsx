@@ -1,21 +1,17 @@
 import { PROFILE } from "@/data/profile";
 import { AsciiCube } from "./AsciiCube";
 import { FadeIn } from "./FadeIn";
+import { TypeWriter } from "./TypeWriter";
 
 export function Hero() {
   return (
     <section className="px-6 pb-6 pt-10 sm:px-10 lg:px-16">
       <div className="mx-auto flex w-full max-w-4xl items-center justify-between gap-8">
         <div className="min-w-0">
-          <FadeIn>
-            <p className="mb-3 font-mono text-[13px] text-accent">
-              <span className="text-text-muted">$ </span>
-              {PROFILE.greeting}
-              <span className="cursor-blink ml-0.5 inline-block w-[7px] bg-accent/70">
-                &nbsp;
-              </span>
-            </p>
-          </FadeIn>
+          <p className="mb-3 font-mono text-[13px] text-accent">
+            <span className="text-text-muted">$ </span>
+            <TypeWriter text={PROFILE.greeting} speed={50} delay={300} />
+          </p>
           <FadeIn delay={120}>
             <h1 className="mb-2 text-xl font-semibold leading-snug tracking-tight text-text-heading sm:text-2xl">
               {PROFILE.description}
