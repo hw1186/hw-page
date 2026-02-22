@@ -85,7 +85,7 @@ export interface LinkItem {
 export const LINKS: LinkItem[] = [
   {
     label: "Blog",
-    href: "https://hw1186.tistory.com/",
+    href: "https://hw1186.tistory.com",
     icon: "blog",
   },
   {
