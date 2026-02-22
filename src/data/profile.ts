@@ -79,7 +79,7 @@ export const SKILLS: SkillCategory[] = [
 export interface LinkItem {
   label: string;
   href: string;
-  icon: "blog" | "github";
+  icon: "blog" | "github" | "instagram";
 }
 
 export const LINKS: LinkItem[] = [
@@ -92,5 +92,10 @@ export const LINKS: LinkItem[] = [
     label: "GitHub",
     href: "https://github.com/hw1186",
     icon: "github",
+  },
+  {
+    label: "Instagram",
+    href: "https://instagram.com/hw_ndf",
+    icon: "instagram",
   },
 ];
