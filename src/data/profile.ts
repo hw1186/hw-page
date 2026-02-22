@@ -70,7 +70,7 @@ export const SKILLS: SkillCategory[] = [
       "Operating System (Windows, Linux)",
       "Git / Git Submodule",
       "Data Structure & Algorithm",
-      "BlockChain Theory",
+      "Blockchain Theory",
       "대용량 로그 처리 아키텍처 설계 경험",
     ],
   },
