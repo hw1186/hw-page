@@ -3,13 +3,16 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "hw1186 — Security & Backend Engineer",
+  title: "이현우 — Security & Infrastructure Engineer",
   description:
-    "로그 수집부터 탐지 로직 설계, 인프라 구성까지. 보안 데이터 파이프라인을 설계하고 운영합니다.",
+    "보안 시스템을 설계하는 개발자 이현우입니다. Network & Infrastructure 중심으로 일합니다.",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⌘</text></svg>",
+  },
   openGraph: {
-    title: "hw1186 — Security & Backend Engineer",
+    title: "이현우 — Security & Infrastructure Engineer",
     description:
-      "로그 수집부터 탐지 로직 설계, 인프라 구성까지. 보안 데이터 파이프라인을 설계하고 운영합니다.",
+      "보안 시스템을 설계하는 개발자 이현우입니다. Network & Infrastructure 중심으로 일합니다.",
     type: "website",
     locale: "ko_KR",
   },

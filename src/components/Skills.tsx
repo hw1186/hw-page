@@ -7,7 +7,7 @@ export function Skills() {
     <section id="skill" className="px-6 py-10 sm:px-10 lg:px-16">
       <div className="mx-auto w-full max-w-4xl">
         <FadeIn>
-          <SectionHeading label="Skill" />
+          <SectionHeading number="02." label="Skill" />
         </FadeIn>
         <div className="grid gap-6 sm:grid-cols-2">
           {SKILLS.map((cat, ci) => (
@@ -20,7 +20,7 @@ export function Skills() {
                   {cat.items.map((item, i) => (
                     <li
                       key={i}
-                      className="text-[12px] leading-relaxed text-text-muted"
+                      className="rounded-sm px-1.5 py-0.5 -mx-1.5 text-[12px] leading-relaxed text-text-muted transition-colors duration-150 hover:bg-accent/5 hover:text-text"
                     >
                       <span className="mr-1.5 text-border">›</span>
                       {item}

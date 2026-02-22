@@ -7,12 +7,12 @@ export function Experience() {
     <section id="experience" className="px-6 py-10 sm:px-10 lg:px-16">
       <div className="mx-auto w-full max-w-4xl">
         <FadeIn>
-          <SectionHeading label="Experience" />
+          <SectionHeading number="01." label="Experience" />
         </FadeIn>
         <ul className="space-y-2">
           {EXPERIENCES.map((exp, i) => (
             <FadeIn key={i} delay={i * 80}>
-              <li className="flex gap-2.5 text-[13px] leading-relaxed">
+              <li className="flex gap-2.5 rounded-sm px-1.5 py-0.5 -mx-1.5 text-[13px] leading-relaxed transition-colors duration-150 hover:bg-accent/5">
                 <span className="mt-0.5 shrink-0 text-text-muted">-</span>
                 <span>{exp.text}</span>
               </li>

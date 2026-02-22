@@ -11,6 +11,9 @@ export function Hero() {
             <p className="mb-3 font-mono text-[13px] text-accent">
               <span className="text-text-muted">$ </span>
               {PROFILE.greeting}
+              <span className="cursor-blink ml-0.5 inline-block w-[7px] bg-accent/70">
+                &nbsp;
+              </span>
             </p>
           </FadeIn>
           <FadeIn delay={120}>

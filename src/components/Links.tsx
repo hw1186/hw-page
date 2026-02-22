@@ -63,7 +63,7 @@ export function Links() {
     <section id="links" className="px-6 py-10 sm:px-10 lg:px-16">
       <div className="mx-auto w-full max-w-4xl">
         <FadeIn>
-          <SectionHeading label="Links" />
+          <SectionHeading number="03." label="Links" />
         </FadeIn>
         <FadeIn delay={100}>
         <div className="flex flex-wrap gap-4">
@@ -75,7 +75,7 @@ export function Links() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 rounded border border-border px-3.5 py-2 text-[13px] text-text-muted transition-colors hover:border-accent hover:text-accent"
+                className="flex items-center gap-2 rounded border border-border px-3.5 py-2 text-[13px] text-text-muted transition-all duration-200 hover:border-accent hover:text-accent hover:shadow-[0_0_12px_rgba(88,166,255,0.15)]"
               >
                 <Icon />
                 <span>{link.label}</span>
