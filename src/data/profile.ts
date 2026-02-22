@@ -11,7 +11,7 @@ export interface ExperienceItem {
 
 export const EXPERIENCES: ExperienceItem[] = [
   { text: "세명컴퓨터고등학교 스마트보안솔루션과 8기 졸업, 과대표 역임." },
-  { text: "클라우드 컴퓨팅 전공심화 동아리 Null4U 부장." },
+  { text: "세명컴퓨터고등학교 클라우드 컴퓨팅 전공심화 동아리 Null4U 부장." },
   { text: "KITRI Best of The Best 12기 수료." },
   { text: "주식회사 TEIREN 팀장으로 SIEM 플랫폼 설계 및 개발." },
   { text: "디지털새싹 SW 강사." },
@@ -37,7 +37,7 @@ export const SKILLS: SkillCategory[] = [
   {
     title: "Backend & Data Engineering",
     items: [
-      "FastAPI 기반 Collector 서버 설계",
+      "FastAPI 기반 Collector 비동기 / 멀티스레딩 처리 엔진 개발",
       "Elasticsearch (Index 설계, Scroll API, 대용량 처리)",
       "Neo4j (Graph 모델링, APOC, Batch 처리, 탐지 로직 설계)",
     ],
