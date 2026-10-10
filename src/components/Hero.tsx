@@ -1,5 +1,5 @@
 import { PROFILE } from "@/data/profile";
-import { AsciiCube } from "./AsciiCube";
+import { AsciiBadApple } from "./AsciiBadApple";
 import { FadeIn } from "./FadeIn";
 import { TypeWriter } from "./TypeWriter";
 
@@ -28,8 +28,8 @@ export function Hero() {
             </div>
           </FadeIn>
         </div>
-        <div className="hidden shrink-0 sm:block">
-          <AsciiCube />
+        <div className="hidden shrink-0 sm:block sm:-translate-x-6">
+          <AsciiBadApple />
         </div>
       </div>
     </section>
